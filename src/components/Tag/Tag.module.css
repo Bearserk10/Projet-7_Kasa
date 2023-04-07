@@ -1,0 +1,33 @@
+.tagsContainer{
+  display: flex;
+  flex-direction: row;
+  gap: .625rem;
+  margin: .625rem 0;
+}
+
+.tag{
+  min-width: 84px;
+  padding: .1875rem .9375rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF6060;
+  color: #FFF;
+  font-size: .625rem;
+  font-weight: 500;
+}
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .tag{
+    min-width: 95px;
+    font-size: .75rem;
+  }
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .tag{
+    min-width: 115px;
+    font-size: .875rem;
+  }
+}

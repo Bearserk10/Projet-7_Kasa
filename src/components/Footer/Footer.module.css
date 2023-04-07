@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.125rem;
+  height: 13.0625rem;
+  gap: 2.8125rem;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.logo{
+  width: 7.625rem;
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px) {
+  .footerContainer{
+    margin-top: 5.3125rem;
+    font-size: 24px;
+  }
+}

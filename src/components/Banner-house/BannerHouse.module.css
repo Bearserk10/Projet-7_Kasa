@@ -1,0 +1,58 @@
+.banner{
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 111px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.bannerImg {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(65%);
+}
+
+.bannerTxt{
+  position: absolute;
+  top: 31px;
+  left: 16px;
+  width: 220px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px) {
+  .banner {
+    height: 9.375rem;
+  }
+
+  .bannerTxt{
+    top: 2.0625rem;
+    font-size: 2.1875rem;
+    width: 20.625rem;
+  }
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .banner{
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+    height: 13.9375rem;
+    border-radius: 25px;
+  }
+
+  .bannerTxt{
+    width: 100%;
+    left: 0;
+    top: 4.875rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+}

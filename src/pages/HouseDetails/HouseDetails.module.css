@@ -1,0 +1,114 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  gap: .9375rem;
+  color: #FF6060;
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: column;
+  gap: .3125rem;
+}
+
+.headerTitle{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.headerLocation{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hostContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hostInfo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .625rem;
+}
+
+.hostPicture{
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.hostName{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dropdownContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .headerTitle {
+    font-size: 25px;
+  }
+
+  .headerLocation {
+    font-size: 16px;
+  }
+
+  .hostPicture {
+    width: 3.125rem;
+  }
+
+  .hostName {
+    font-size: 16px;
+  }
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .detailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainContainer {
+    max-width: 1440px;
+    width: 95%;
+    gap: 1.875rem;
+  }
+  .headerTitle {
+    font-size: 36px;
+  }
+  
+  .headerLocation {
+    font-size: 18px;
+  }
+  
+  .hostContainer{
+    flex-direction: column;
+    align-items: end;
+    gap: 1.25rem;
+  }
+
+  .hostPicture {
+    width: 4rem;
+  }
+  
+  .hostName {
+    font-size: 18px;
+  }
+
+  .dropdownContainer{
+    flex-direction: row;
+  }
+}

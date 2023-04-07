@@ -1,0 +1,63 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12.1875rem;
+  gap: 8.3125rem;
+  text-align: center;
+  color: #FF6060;
+}
+
+.contentTitles{
+  display: flex;
+  flex-direction: column;
+  gap: .6875rem;
+}
+
+.codeError{
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.message{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link{
+  color: #FF6060;
+  font-size: 14px;
+}
+
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .codeError {
+    font-size: 150px;
+  }
+    
+  .message {
+    font-size: 25px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+}
+
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .content{
+    margin-top: 9.9375rem;
+  }
+  
+  .codeError {
+      font-size: 288px;
+    }
+
+  .message {
+    font-size: 36px;
+  }
+
+}
