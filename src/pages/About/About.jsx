@@ -1,6 +1,6 @@
 import Banner from '../../components/Banner-about/BannerAbout'
 import Dropdown from '../../components/Dropdown/Dropdown'
-import DataAbout from "../../data/Data.json";
+import DataAbout from "../../data/AboutData.json";
 import styles from "./About.module.css";
 
 

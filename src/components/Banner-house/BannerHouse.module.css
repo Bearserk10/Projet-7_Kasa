@@ -7,7 +7,7 @@
   border-radius: 10px;
 }
 
-.bannerImg {
+.banner__Img {
   position: absolute;
   width: 150%;
   height: 150%;
@@ -16,7 +16,7 @@
   filter: brightness(65%);
 }
 
-.bannerTxt{
+.banner__Txt{
   position: absolute;
   top: 31px;
   left: 16px;
@@ -31,7 +31,7 @@
     height: 9.375rem;
   }
 
-  .bannerTxt{
+  .banner__Txt{
     top: 2.0625rem;
     font-size: 2.1875rem;
     width: 20.625rem;
@@ -48,7 +48,7 @@
     border-radius: 25px;
   }
 
-  .bannerTxt{
+  .banner__Txt{
     width: 100%;
     left: 0;
     top: 4.875rem;

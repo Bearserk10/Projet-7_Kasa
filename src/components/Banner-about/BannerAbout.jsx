@@ -4,7 +4,7 @@ import styles from "./BannerAbout.module.css"
 export default function banner() {
   return (
     <div className= { styles.banner }>
-      <img  className= { styles.bannerImg } src={ BannerImg } alt="Images Bannière pages A propos" />
+      <img  className= { styles.banner__Img } src={ BannerImg } alt="Images Bannière pages A propos" />
     </div>
   )
 }

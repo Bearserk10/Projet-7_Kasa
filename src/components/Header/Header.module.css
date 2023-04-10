@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 1.25rem 0;
   width: 90%;
-  margin: auto;
+  margin: auto
 }
 
 .navigation{
@@ -63,6 +63,7 @@
     max-width: 1440px;
     width: 95%;
     margin: auto;
+    margin-bottom: 3.5rem;
     padding: 1.875rem 0;
   }
 
